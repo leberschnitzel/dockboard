@@ -1,0 +1,7 @@
+version: "3"
+services:
+  dockboard:
+    image: leberschnitzel/dockboard:latest
+    ports:
+      - "8653:80"
+    container_name: "Dockboard"
